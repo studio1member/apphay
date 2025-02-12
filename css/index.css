@@ -1,0 +1,15 @@
+.downloadButton{
+    width: 300px;
+    height: 100px;
+    font-size: 170%;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    color: white;
+}
+.downloadButton div{
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+}
+.downloadButton:hover{
+    border-color: red; /* Đổi viền sang đỏ khi di chuột */
+    color: red;
+}

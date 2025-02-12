@@ -1,0 +1,21 @@
+.phanmemdownload{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgb(116, 1, 192);
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    margin: 50px;
+}
+.phanmemdownload:hover{
+    border-color: red;
+}
+.phanmemdownload div:hover{
+    color: red;
+}
+.phanmemdownload div{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}

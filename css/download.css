@@ -1,0 +1,43 @@
+.DownloadButton{
+    width: 50%;
+    height: 100px;
+    font-size: 40px;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+.imageHelp{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+.divImageHelp{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 3%;
+}
+.divImageHelp div{
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+}
+.divVideoHelp{
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+}
+.VideoHelp{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    display: block;
+}
+.divtieude{
+    background-color: rgb(255, 162, 162);
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 3%;
+    font-size: 200%;
+}

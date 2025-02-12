@@ -1,0 +1,29 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-bottom:2px solid black ;
+}
+nav ul {
+    display: flex; /* Hiển thị ngang */
+    justify-content: space-between; /* Cách đều các mục */
+    list-style: none; /* Xóa dấu chấm */
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    padding: 15px 5%; /* Tăng khoảng cách */
+}
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; /* Bỏ gạch chân */
+    font-size: 20px;
+    padding: 50px;
+}
+
+nav a:hover {
+    color: rgb(255, 0, 0); /* Đổi màu khi di chuột vào */
+}
