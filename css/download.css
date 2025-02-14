@@ -18,7 +18,7 @@
 }
 .divImageHelp div{
     text-align: center;
-    font-size: 500%;
+    font-size: 200%;
     color: white;
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
 }
@@ -42,4 +42,10 @@
     margin-left: 15%;
     margin-top: 3%;
     font-size: 200%;
+}
+.spaceTop{
+    margin-top: 500px;
+}
+.spaceBottom{
+    height: 500px;
 }
