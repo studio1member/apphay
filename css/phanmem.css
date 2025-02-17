@@ -7,7 +7,9 @@
     backdrop-filter: blur(10px);
     border: 1px solid rgb(116, 1, 192);
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
-    margin: 50px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .phanmemdownload:hover{
     border-color: red;
@@ -16,7 +18,7 @@
     color: red;
 }
 .phanmemdownload div{
-    font-size: 40px;
+    font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .phanmemdownload img{

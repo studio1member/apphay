@@ -31,6 +31,19 @@
     color: red;
     border-color: red;
 }
+.divVideoHelp{
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    font-size: 200%;
+}
+.divVideoHelp iframe{
+    width: 70%;
+    height: auto;
+    max-width: 1000px;
+    aspect-ratio:16/9 ;
+}
 .divTitle{
     margin-top: 70px;
     margin-bottom: 40px;
