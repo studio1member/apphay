@@ -15,13 +15,13 @@ nav ul {
     margin: 0;
 }
 nav ul li {
-    padding: 15px 5%; /* Tăng khoảng cách */
+    padding: 15px 10%; /* Tăng khoảng cách */
 }
 nav a {
     color: rgb(255, 255, 255);
     text-decoration: none; /* Bỏ gạch chân */
-    font-size: 20px;
-    padding: 50px;
+    font-size: 120%;
+    padding: 1px;
 }
 
 nav a:hover {
