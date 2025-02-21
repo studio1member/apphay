@@ -25,24 +25,9 @@
     width: 70px;
 }
 
-@media (max-width: 700px) {
+@media (orientation: portrait) {
     .phanmemdownload{
-        margin-left: 30%;
-        margin-right: 30%;
-    }
-    
-    .phanmemdownload div{
-        font-size: 15px;
-    }
-
-    .phanmemdownload img{
-        width: 40px;
-    }
-}
-
-@media (max-width: 400px) {
-    .phanmemdownload{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
