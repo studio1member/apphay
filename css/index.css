@@ -23,3 +23,9 @@
     border-color: red; /* Đổi viền sang đỏ khi di chuột */
     color: red;
 }
+
+@media (orientation: portrait) {
+    .downloadButton{
+        width: 200px;
+    }
+}

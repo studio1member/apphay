@@ -13,7 +13,7 @@
 }
 .divImageHelp{
     text-align: center;
-    font-size: 150%;
+    font-size: 120%;
     margin-top: 3%;
 }
 .divImageHelp div{
@@ -24,14 +24,14 @@
 }
 .divVideoHelp{
     text-align: center;
-    font-size: 500%;
+    font-size: 300%;
     color: white;
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
 }
 .VideoHelp{
     width: 70%;
     height: auto;
-    max-width: 1280;
+    max-width: 1000px;
     aspect-ratio: 16/9;
     margin: auto;
     display: block;
@@ -43,6 +43,24 @@
     margin-top: 3%;
     font-size: 200%;
 }
+
+@media (orientation: portrait){
+    .DownloadButton{
+        font-size: 20px;
+        width: 50%;
+        height: 50px
+    }
+    .divImageHelp div{
+        font-size: 120%;
+    }
+    .divVideoHelp{
+        font-size: 200%;
+    }
+    .divtieude{
+        font-size: 120%;
+    }
+}
+
 .spaceTop{
     margin-top: 500px;
 }
