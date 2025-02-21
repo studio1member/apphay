@@ -28,33 +28,27 @@
     color: rgb(255, 0, 0); /* Đổi màu khi di chuột vào */
 }
 
-.aAvatar{
+.DisplayPortrait {
+    position: fixed;
+    left: -500px;
+}
+
+.LandscapeSupport a{
     text-decoration: none;
     position: fixed;
     right: 40px;
     bottom: 20px;
     width: 15%;
     height: auto;
-    max-width: 80px;
+    max-width: 70px;
 }
 
-.aAvatar img {
+.LandscapeSupport a img {
     width: 100%;
     height: auto;
     border-radius: 50%;
 }
 
-.aAvatar div {
-    color: white;
-    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
-    text-align: center;
-    font-size: 125%;
-}
-
-.DisplayPortrait {
-    position: fixed;
-    left: -500px;
-}
 .aAvatarMenu img{
     border-radius: 20%;
 }
