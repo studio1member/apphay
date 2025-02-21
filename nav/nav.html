@@ -7,13 +7,34 @@
     <link rel="stylesheet" href="../nav/nav.css">
 </head>
 <body>
-    <nav>
+    <nav class="DisplayLandscape">
         <ul>
             <li><a href="../index.html">Trang Chủ</a></li>
             <li><a href="../phanmem.html">Phần mềm</a></li>
             <li><a href="../game.html">Tải Game</a></li>
         </ul>
     </nav>
+    
+    <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <div class="DisplayPortrait" id="menu">
+        <a href="https://www.youtube.com/@Zukitcraft" class="aAvatarMenu">
+            <img src="https://yt3.googleusercontent.com/_c2VyREC2rFtEX7s_lS2mgGVN6gOqFKCuhdhoy7P-uDWRlQlHeYCVXK3HTezGFSjFUxWP97-=s160-c-k-c0x00ffffff-no-rj
+            " alt="Logo">
+        </a>
+        <div class="spaceTop"></div>
+        <div class="listMenu">
+            <a href="../index.html">Trang chủ</a>
+            <a href="../phanmem.html">Phần mềm</a>
+            <a href="../game.html">Tải game</a>
+        </div>
+    </div>
+
+    <div class="menu-off-btn" id="menu-off" onclick="toggleMenuOff()"></div>
+
+    <script src="mainnav.js"></script>
 
     <a href="https://www.youtube.com/@Zukitcraft" class="aAvatar">
         <img src="https://yt3.googleusercontent.com/_c2VyREC2rFtEX7s_lS2mgGVN6gOqFKCuhdhoy7P-uDWRlQlHeYCVXK3HTezGFSjFUxWP97-=s160-c-k-c0x00ffffff-no-rj"

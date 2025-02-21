@@ -51,6 +51,14 @@
     font-size: 125%;
 }
 
+.DisplayPortrait {
+    position: fixed;
+    left: -500px;
+}
+.aAvatarMenu img{
+    border-radius: 20%;
+}
+
 @media (orientation: portrait) {
     .DisplayLandscape {
         top: -100px;
