@@ -113,4 +113,22 @@
         right: -100px;
         bottom: 10px;
     }
+
+
+    .TextSupport {
+        font-size: 25px;
+        margin-top: 25px;
+        margin-left: 30px;
+        color: white;
+    }
+    .IconSupport{
+        display: flex;
+        justify-content: center;
+    }
+    .IconSupport img{
+        display: flex;
+        width: 40px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
 }
