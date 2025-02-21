@@ -1,4 +1,4 @@
-nav {
+.DisplayLandscape {
     position: fixed;
     top: 0;
     left: 0;
@@ -7,24 +7,24 @@ nav {
     backdrop-filter: blur(10px);
     border-bottom:2px solid black ;
 }
-nav ul {
+.DisplayLandscape ul {
     display: flex; /* Hiển thị ngang */
     justify-content: space-between; /* Cách đều các mục */
     list-style: none; /* Xóa dấu chấm */
     padding: 0;
     margin: 0;
 }
-nav ul li {
+.DisplayLandscape ul li {
     padding: 15px 10%; /* Tăng khoảng cách */
 }
-nav a {
+.DisplayLandscape a {
     color: rgb(255, 255, 255);
     text-decoration: none; /* Bỏ gạch chân */
     font-size: 120%;
     padding: 1px;
 }
 
-nav a:hover {
+.DisplayLandscape a:hover {
     color: rgb(255, 0, 0); /* Đổi màu khi di chuột vào */
 }
 
@@ -52,9 +52,57 @@ nav a:hover {
 }
 
 @media (orientation: portrait) {
+    .DisplayLandscape {
+        top: -100px;
+    }
+
+    .menu-btn {
+        top: 15px;
+        left: 15px;
+        position: fixed;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 9px 15px;
+        background-color: rgb(90, 0, 207);
+        border-radius: 20%;
+        color: white;
+    }
+
+    .DisplayPortrait {
+        position: fixed;
+        z-index: 100;
+        top: 0px;
+        left: -220px;
+        height: 100vh;
+        width: 220px;
+        backdrop-filter: blur(15px);
+        transition: left 0.3s ease-in-out;
+    }
+
+    .spaceTop {
+        margin: 50px;
+    }
+    
+    .DisplayPortrait a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 15px 20px;
+        font-size: 30px;
+    }
+
+    .menu-off-btn {
+        position: fixed;
+        top: 0px;
+        left: -1000px;
+        z-index: 99;
+        width: 100vh;
+        height: 100vh;
+    }
+
     .aAvatar{
         font-size: 10px;
-        right: 10px;
+        right: -100px;
         bottom: 10px;
     }
 }
