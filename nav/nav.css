@@ -27,3 +27,34 @@ nav a {
 nav a:hover {
     color: rgb(255, 0, 0); /* Đổi màu khi di chuột vào */
 }
+
+.aAvatar{
+    text-decoration: none;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    width: 15%;
+    height: auto;
+    max-width: 80px;
+}
+
+.aAvatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.aAvatar div {
+    color: white;
+    text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
+    text-align: center;
+    font-size: 125%;
+}
+
+@media (max-width: 700px) {
+    .aAvatar{
+        font-size: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+}

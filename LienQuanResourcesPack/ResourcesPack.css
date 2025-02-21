@@ -1,14 +1,7 @@
-.aAvatar{
-    text-align: center;
-}
-.aAvatar div img{
-    width: 250px;
-}
-
 .aDownload{
     display: flex;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-right: 30%;
     margin-left: 30%;
     gap: 10px;
@@ -53,5 +46,5 @@
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
 }
 .spaceTop{
-    margin-top: 100px;
+    margin-top: 150px;
 }

@@ -8,8 +8,8 @@
     border: 1px solid rgb(116, 1, 192);
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
     margin-top: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 .phanmemdownload:hover{
     border-color: red;
@@ -23,4 +23,26 @@
 }
 .phanmemdownload img{
     width: 70px;
+}
+
+@media (max-width: 700px) {
+    .phanmemdownload{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+    
+    .phanmemdownload div{
+        font-size: 15px;
+    }
+
+    .phanmemdownload img{
+        width: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .phanmemdownload{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
