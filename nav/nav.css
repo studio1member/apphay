@@ -125,4 +125,7 @@
         margin-left: -10px;
         margin-right: -10px;
     }
+    .LandscapeSupport a{
+        right: -500px;
+    }
 }
