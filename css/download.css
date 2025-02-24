@@ -51,6 +51,12 @@
     margin: auto;
     display: block;
 }
+.spaceTop{
+    margin-top: 200px;
+}
+.spaceBottom{
+    height: 500px;
+}
 .divtieude{
     background-color: rgb(255, 162, 162);
     margin-right: 15%;
@@ -82,11 +88,4 @@
     .spaceTop{
         height: 100px;
     }
-}
-
-.spaceTop{
-    margin-top: 500px;
-}
-.spaceBottom{
-    height: 500px;
 }
