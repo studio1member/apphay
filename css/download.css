@@ -67,8 +67,11 @@
     .DownloadButton button {
         background: linear-gradient(45deg, blue, purple);
     }
+    .imageHelp{
+        width: 80%;
+    }
     .divImageHelp div{
-        font-size: 120%;
+        font-size: 110%;
     }
     .divVideoHelp{
         font-size: 200%;
