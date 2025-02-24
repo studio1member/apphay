@@ -1,10 +1,22 @@
-.DownloadButton{
-    width: 50%;
+.DownloadButton {
+    display: flex;
+    margin-right:25%;
+    margin-left:25%;
     height: 100px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.DownloadButton button{
     font-size: 40px;
-    display: block;
-    margin: auto;
-    margin-top: 10%;
+    border-radius: 40px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.DownloadButton button:hover {
+    color: red;
 }
 .imageHelp{
     display: block;
@@ -47,8 +59,10 @@
 @media (orientation: portrait){
     .DownloadButton{
         font-size: 20px;
-        width: 50%;
-        height: 50px
+        height: 70px
+    }
+    .DownloadButton button {
+        background: linear-gradient(45deg, blue, purple);
     }
     .divImageHelp div{
         font-size: 120%;
@@ -58,6 +72,9 @@
     }
     .divtieude{
         font-size: 120%;
+    }
+    .spaceTop{
+        height: 100px;
     }
 }
 
