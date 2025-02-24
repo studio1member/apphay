@@ -9,7 +9,8 @@
     margin-top: 20px;
     margin-left: 30%;
     margin-right: 30%;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(64, 0, 124);
 }
 .phanmemdownload:hover{
     border-color: red;
@@ -23,6 +24,7 @@
 }
 .phanmemdownload img{
     width: 70px;
+    border-radius: 20px;
 }
 
 @media (orientation: portrait) {
