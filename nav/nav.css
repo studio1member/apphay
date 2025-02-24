@@ -80,10 +80,6 @@
         background: linear-gradient(45deg, red, purple);
         transition: left 0.3s ease-in-out;
     }
-
-    .spaceTop {
-        margin: 50px;
-    }
     
     .DisplayPortrait a {
         display: block;
