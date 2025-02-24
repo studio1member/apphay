@@ -5,11 +5,11 @@
     text-decoration: none;
     background-color: transparent;
     backdrop-filter: blur(10px);
-    border: 1px solid rgb(116, 1, 192);
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
     margin-top: 20px;
     margin-left: 30%;
     margin-right: 30%;
+    border-radius: 30px;
 }
 .phanmemdownload:hover{
     border-color: red;
@@ -29,5 +29,6 @@
     .phanmemdownload{
         margin-left: 10%;
         margin-right: 10%;
+        background: linear-gradient(45deg, blue, purple);
     }
 }

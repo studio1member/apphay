@@ -27,5 +27,6 @@
 @media (orientation: portrait) {
     .downloadButton{
         width: 200px;
+        background: linear-gradient(45deg, blue,purple);
     }
 }
