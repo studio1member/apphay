@@ -15,6 +15,7 @@
     backdrop-filter: blur(10px);
     background-color: transparent;
     color: white;
+    border-radius: 30px;
 }
 .downloadButton div{
     text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red;
