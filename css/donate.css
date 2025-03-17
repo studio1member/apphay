@@ -1,0 +1,9 @@
+.divMain{
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divMain img {
+    max-height: 65vh;
+}
